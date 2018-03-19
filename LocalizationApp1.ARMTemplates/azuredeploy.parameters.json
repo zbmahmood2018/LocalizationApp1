@@ -1,0 +1,30 @@
+{
+  "$schema": "http://schemas.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "appName": {
+      "value": "LocalizationFunctionApp1"
+    },
+    "serverfarmsName": {
+      "value": "AustraliaEastPlan"
+    },
+    "sitesName": {
+      "value": "LocalizationFunctionApp1"
+    },
+    "configWebName": {
+      "value": "web"
+    },
+    "storageAccountsName": {
+      "value": "localizationfunctionapp1"
+    },
+    "databaseAccountsName": {
+      "value": "localization-function-app1"
+    },
+    "hostNameBindingsName": {
+      "value": "localizationfunctionapp1.azurewebsites.net"
+    },
+    "repoURL": {
+      "value": "https://github.com/zbmahmood2018/localization-function-app1.git"
+    }
+  }
+}
